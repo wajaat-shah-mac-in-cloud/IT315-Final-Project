@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var logo: UIImageView!
     @IBOutlet weak var pizzaName: UILabel!
     @IBOutlet weak var pizzaPrice: UILabel!
     @IBOutlet weak var pizzaImage: UIImageView!
@@ -16,6 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.lightGray
+        logo.image = UIImage(named: "logo2.png")
         pizzaName.text = ReceivingPizza.name
         pizzaPrice.text = ReceivingPizza.price
         pizzaSize.text = ReceivingPizza.size
