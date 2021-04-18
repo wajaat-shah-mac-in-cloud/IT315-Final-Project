@@ -12,7 +12,7 @@ import UIKit
 class Pizza{
     var name:String = ""
     var size:String = ""
-    var price:Double = 0.0
+    var price:String = ""
     var img:String = ""
     init(){
         

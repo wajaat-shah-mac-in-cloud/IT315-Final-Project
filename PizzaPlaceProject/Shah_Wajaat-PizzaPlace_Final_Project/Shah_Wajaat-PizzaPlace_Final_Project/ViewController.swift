@@ -15,9 +15,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         pizzaName.text = ReceivingPizza.name
-        pizzaImage.image = UIImage(named: ReceivingPizza.img)
+        pizzaImage.image = convertStringToImage(imageName: ReceivingPizza.img)
     }
 
     var ReceivingPizza:Pizza = Pizza()
+    
+    
+    func convertStringToImage(imageName:String) -> UIImage{
+        let imageURL = URL(string: imageName)
+        let imageData = try? Data(contentsOf: imageURL!)
+        print(imageData ?? "Error. Failed to retrieve Image Data")
+        let img = UIImage(data: imageData!)
+        return img!
+    }
 }
 
