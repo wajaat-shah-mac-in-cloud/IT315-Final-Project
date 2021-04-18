@@ -10,11 +10,15 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var pizzaName: UILabel!
+    @IBOutlet weak var pizzaPrice: UILabel!
     @IBOutlet weak var pizzaImage: UIImageView!
+    @IBOutlet weak var pizzaSize: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.lightGray
         pizzaName.text = ReceivingPizza.name
+        pizzaPrice.text = ReceivingPizza.price
+        pizzaSize.text = ReceivingPizza.size
         pizzaImage.image = convertStringToImage(imageName: ReceivingPizza.img)
     }
 
