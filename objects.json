@@ -1,0 +1,61 @@
+{
+    "Pizza": [
+        {
+            "name" : "New York Style",
+            "size" : "Small",
+            "price" : "$ 10.00",
+            "img" : "https://raw.githubusercontent.com/wajaat-shah-mac-in-cloud/IT315_PizzaPLace_Final/main/ny.jpeg"
+        },
+        {
+            "name" : "New York Style",
+            "size" : "Medium",
+            "price" : "$ 12.00",
+            "img" : "https://raw.githubusercontent.com/wajaat-shah-mac-in-cloud/IT315_PizzaPLace_Final/main/ny.jpeg"
+        },
+        {
+            "name" : "New York Style",
+            "size" : "Large",
+            "price" : "$ 14.00",
+            "img" : "https://raw.githubusercontent.com/wajaat-shah-mac-in-cloud/IT315_PizzaPLace_Final/main/ny.jpeg"
+        },
+        {
+            "name" : "Chicago Deep Dish",
+            "size" : "Small",
+            "price" : "$ 15.00",
+            "img" : "https://raw.githubusercontent.com/wajaat-shah-mac-in-cloud/IT315_PizzaPLace_Final/main/chi.jpeg"
+        },
+        {
+            "name" : "Chicago Deep Dish",
+            "size" : "Medium",
+            "price" : "$ 18.00",
+            "img" : "https://raw.githubusercontent.com/wajaat-shah-mac-in-cloud/IT315_PizzaPLace_Final/main/chi.jpeg"
+        },
+        {
+            "name" : "Chicago Deep Dish",
+            "size" : "Large",
+            "price" : "$ 21.00",
+            "img" : "https://raw.githubusercontent.com/wajaat-shah-mac-in-cloud/IT315_PizzaPLace_Final/main/chi.jpeg"
+        },
+        {
+            "name" : "Neopolitan Style",
+            "size" : "Small",
+            "price" : "$ 13.00",
+            "img" : "https://raw.githubusercontent.com/wajaat-shah-mac-in-cloud/IT315_PizzaPLace_Final/main/itl.jpg"
+        },
+        {
+            "name" : "Neopolitan Style",
+            "size" : "Medium",
+            "price" : "$ 15.00",
+            "img" : "https://raw.githubusercontent.com/wajaat-shah-mac-in-cloud/IT315_PizzaPLace_Final/main/itl.jpg"
+        },
+        {
+            "name" : "Neopolitan Style",
+            "size" : "Large",
+            "price" : "$ 17.00",
+            "img" : "https://raw.githubusercontent.com/wajaat-shah-mac-in-cloud/IT315_PizzaPLace_Final/main/itl.jpg"
+        }
+    ],
+    "Logo" : "https://raw.githubusercontent.com/wajaat-shah-mac-in-cloud/IT315_PizzaPLace_Final/main/logo2.png",
+    "Status": "Ok"
+    
+}
